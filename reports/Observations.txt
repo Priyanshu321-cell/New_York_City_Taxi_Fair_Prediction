@@ -1,0 +1,15 @@
+1) This is supervised learning regression problem
+2) Traing data is 5.5 GB in size
+3) Traing data has aroud 5 million rows
+4) Test size is much smaller( < 10000 rows)
+5) Columns in training set key,fare_amount (target),pickup_datetime,pickup_longitude,pickup_latitude,dropoff_longitude,dropoff_latitude,passenger_count
+6) The test set have all columns except fare_amount
+7) submission file contains key
+
+
+
+1 percent of data - 
+- 75 % of rides are under 12 dollars
+- no missing data dates from 1st jan 2009 to 30 th june 2015
+- errors in longitute and lattitude values
+- -52 dollars to 499 dollars
